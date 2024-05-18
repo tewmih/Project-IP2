@@ -1,0 +1,45 @@
+.pass img{
+    width: 25px;
+    position: relative;
+    top: 28px;
+    left: 145px;
+    cursor: pointer;
+}
+.pass .line{
+    background-color: rgb(26, 23, 23);
+    border: 1px solid rgba(231, 210, 210, 0.329);
+    width: 22px;
+    position: relative;
+    top: 42px;
+    left: 146px;
+    transform: rotatez(135deg);
+    z-index: 1;
+    
+}
+/* Style the range input */
+input[type="range"] {
+    -webkit-appearance: none; /*Remove default styling
+    /* width: 100%; Adjust width as needed */
+    height: 5px; /* Adjust height as needed */
+    background: #c8b8b8; /* Track background color */
+    /* outline: none; Remove focus outline */
+    border-radius: 5px; /* Rounded corners */
+    margin-top: 10px; /* Adjust margin as needed */
+}
+
+/* Style the range input thumb */
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styling */
+    width: 20px; /* Adjust thumb width */
+    height: 20px; /* Adjust thumb height */
+    background: #007bff; /* Default thumb color */
+    border-radius: 50%; /* Rounded shape */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 30s ease; /* Smooth transition for background color */
+}
+.pass img{
+    background-color: #e5dfdf;
+    border-radius: 50px;
+    overflow: hidden;
+
+}
